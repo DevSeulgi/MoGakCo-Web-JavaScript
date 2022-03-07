@@ -1,0 +1,64 @@
+/* User Agent stylesheet Reset */
+body, h1, h2 {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    background-color: #003366;
+    color: white;
+    height: 100%;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1 {
+    /* dashed border */
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='70' ry='70' stroke='rgba(100, 100, 100, .8)' stroke-width='14' stroke-dasharray='2%2c 8' stroke-dashoffset='46' stroke-linecap='butt'/%3e%3c/svg%3e");
+    border-radius: 70px;
+    width: 200px;
+    padding: 3rem 2rem;
+    font-size: 1.5rem;
+    margin-top: 30%;
+    font-family: 'Pacifico', cursive;
+}
+
+h2 {
+    background-color: white;
+    color: #e2e2e2;
+    padding: 3rem;
+    font-family: 'Maven Pro', sans-serif;
+    border-radius: 15px 15px 0 0;
+}
+
+.wrapper {
+    width: auto;
+    margin: auto;
+    padding: 0 2rem;
+    max-width: 500px;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    text-align: center;
+    margin: 50px auto;
+}
+
+button {
+    display: block;
+    text-align: center;
+    border: none;
+    border-radius: 0 0 15px 15px;
+    width: 100%;
+    padding: 1.2rem;
+    background-color: aquamarine;
+    color: #003366;
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: 'Maven Pro', sans-serif;
+}
